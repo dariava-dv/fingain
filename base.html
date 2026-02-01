@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="css/main.css">
     <title>{% block title %}{% endblock %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> <span class="fs-4">FinGain</span> </a> <ul class="nav nav-pills"> <li class="nav-item"><a href="{{url_for('index')}}" class="nav-link active" aria-current="page">Главная</a></li> <li class="nav-item"><a href="{{url_for('about')}}" class="nav-link">Вклады</a></li> <li class="nav-item"><a href="{{url_for('obl')}}" class="nav-link">Облигации</a></li> <li class="nav-item"><a href="{{url_for('val')}}" class="nav-link">Валюта</a></li> <li class="nav-item"><a href="{{url_for('met')}}" class="nav-link">Драгоценные металлы</a></li> </ul> </header>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> <span class="fs-4">FinGain</span> </a> <ul class="nav nav-pills"> <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Главная</a></li> <li class="nav-item"><a href="about.html" class="nav-link">Вклады</a></li> <li class="nav-item"><a href="obl.html" class="nav-link">Облигации</a></li> <li class="nav-item"><a href="val.html" class="nav-link">Валюта</a></li> <li class="nav-item"><a href="met.html" class="nav-link">Драгоценные металлы</a></li> </ul> </header>
     <div class ="he">
         {% block he %}{% endblock %}
     </div>
