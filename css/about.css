@@ -1,0 +1,141 @@
+header{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: lightseagreen;
+
+}
+
+body{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.about__info__title{
+    color: midnightblue;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 115px;
+
+}
+.about__info__paragraf{
+    font-size: 30px;
+    border: 3px solid midnightblue;
+    padding: 30px;
+    margin-bottom: 190px;
+    display: flex;
+    text-align: center;
+}
+p {
+    font-size:20px;
+}
+ol{
+    padding: 0;
+    margin:0;
+    font-size:20px;
+    margin-left: 100px;
+}
+h2 {
+    color: midnightblue;
+}
+h3 {
+    color: midnightblue;
+}
+h4 {
+    color: blue;
+}
+
+h5 {
+    color: midnightblue;
+    font-size: 70px;
+    margin: 20 px;
+    margin-left: 500px;
+}
+h6 {
+    font-size: 20px;
+    margin: 20 px;
+    margin-left: 40px;
+}
+
+.about__twotypes__title{
+    margin-bottom: 110px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.about__twotypes__paragraf__1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.about__twotypes__paragraf{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.about__twotypes__paragraf__12{
+font-weight: 700;
+display:flex;
+justify-content: space-between;
+padding-left: 210px;
+padding-right: 150px;
+}
+
+.about__twotypes__paragraf__3{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.about__plusminus__title{
+margin-top: 130px;
+text-align: center;
+
+}
+
+.about__plusminus__1{
+margin-top: 150px;
+text-align: left;
+}
+.about__plusminus__1__plus__title__pl{
+border: 3px solid rgba(0,0,255,0.25);
+border-radius: 50%;
+text-align: justify;
+margin-bottom: 50px;
+
+padding: 55px;
+}
+
+.about__plusminus__1__minus__title__min{
+border: 3px solid rgba(0,0,255,0.25);
+border-radius: 50%;
+text-align: justify;
+padding: 55px;
+
+margin-bottom: 50px;
+}
+
+.about__plusminus__1__plus__title{
+text-align: center;
+font-size: 40px;
+margin-bottom: 80px;
+padding-left: 80px;
+}
+.about__plusminus__1__minus__title{
+text-align: center;
+font-size: 40px;
+margin: 80px;
+padding-left: 80px;
+}
+
+.ol{
+display: flex;
+flex-direction: column;
+
+justify-content: space-between;
+}
