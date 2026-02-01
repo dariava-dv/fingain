@@ -1,0 +1,112 @@
+header{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: lightseagreen;
+
+}
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1 {
+    color: midnightblue;
+    font-size: 70px;
+}
+.content{
+    margin: 20px;
+}
+p {
+    font-size:20px;
+}
+ol{
+    font-size:25px;
+    margin-left: 100px;
+}
+h2 {
+    color: midnightblue;
+}
+h3 {
+    color: midnightblue;
+}
+h4 {
+    color: blue;
+}
+
+h5 {
+    color: midnightblue;
+    font-size: 70px;
+    margin: 20 px;
+    margin-left: 300px;
+}
+h6 {
+    font-size: 30px;
+    margin: 20 px;
+    margin-left: 40px;
+}
+
+
+.simple-deposit-calc {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width:600px;
+}
+
+.calc-grid {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap:70px;
+    margin-bottom: 20px;
+    margin-top: 70px; }
+
+.calc-grid input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.calc-grid button {
+    grid-column: span 2;
+    padding: 12px;
+    background: midnightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 100px; }
+
+.result {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.result div {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.result span {
+    font-weight: bold;
+    color: #2e7d32;
+}
+.cal{
+margin-bottom: 100px;
+}
+.title__h6{
+margin-bottom:80px;
+}
+
+.text__ol{
+margin-bottom: 100px;
+}
+.calc{
+display:flex;
+justify-content: center;
+}
